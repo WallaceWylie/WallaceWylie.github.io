@@ -18,11 +18,11 @@ text-align: center;
 }
 
 .statement {
+background-color: blue;
 border-style: solid;
 border-width: 4px;
 margin: 25px;
 padding: 25px;
-background-color: blue;
 }
 
 .statement h2 {
