@@ -1,0 +1,64 @@
+.nav {
+background-color: silver;
+border-style: solid;
+border-width: 4px;
+}
+
+.nav h1 {
+  font-family: 'Tahoma, Geneva, sans-serif';
+  text-align: center;
+}
+
+.nav p {
+  font-size: 30px;
+  font-family: 'Times New Roman", Times, serif';
+  text-align: center;
+}
+
+.statement {
+border-style: solid;
+border-width: 4px;
+margin: 25px;
+padding: 25px;
+}
+
+.statement h2 {
+font-family: 'Tahoma, Geneva, sans-serif';
+}
+
+.statement p {
+font-size: 18px;
+font-family: 'Times New Roman", Times, serif';
+text-align: left;
+font-weight: bold;	
+} 
+
+.jumbotron {
+border: 4px solid;
+padding: 20px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.jumbotron p {
+font-size: 20px;
+font-family: 'Times New Roman", Times, serif';
+font-weight: bold;
+} 
+
+.learn-more {
+border-style: solid;
+border-width: 4px;
+padding: 25px;
+}
+
+.education p {
+font-size: 18px;
+font-weight: bold;
+}
+
+.statement3 {
+border-style: solid;
+border-width: 4px;
+padding: 25px;
+}
