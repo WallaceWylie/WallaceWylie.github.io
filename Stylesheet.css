@@ -14,6 +14,7 @@ body {
     border-radius: 20px;
     float: left;
     margin-top: 110px;
+    margin-bottom: 20px;
     display: inline;
     position: fixed;
     z-index: -1;
