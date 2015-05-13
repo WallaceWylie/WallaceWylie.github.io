@@ -1,69 +1,226 @@
-.nav {
-background-color: silver;
-border-style: solid;
-border-width: 4px;
+* {
+margin: 15px;
 }
 
-.nav h1 {
-font-size: 50px;
-text-align: center;
-font-family: 'Tahoma, Geneva, sans-serif';
+body {
+    background-color: lightblue;
 }
 
 
-.nav p {
-font-size: 30px;
-font-family: 'Times New Roman", Times, serif';
-text-align: center;
+.header {
+	height: 460px;
+	width: 250px;
+	border: 2px solid black;
+	border-radius: 20px;
+    float: left;
+    margin-top: 150px;
+    display: inline;
+    position: fixed;
+    z-index: -1;
+    background-color: snow;
 }
 
-.statement {
-background-color: #A9F5F2;
-border-style: solid;
-border-width: 4px;
-margin: 25px;
-padding: 40px;
+.header dd {
+    font-family: sans-serif, "Veranda";
 }
 
-.statement h2 {
-font-family: 'Tahoma, Geneva, sans-serif';
+
+
+#name {
+    margin-top: 80px;
+    text-align: center;
+    vertical-align: middle;
 }
 
-.statement p {
-font-size: 18px;
-font-family: 'Times New Roman", Times, serif';
-text-align: left;
-font-weight: bold;	
-} 
-
-.jumbotron {
-border: 4px solid;
-padding: 20px;
-padding-top: 20px;
-padding-bottom: 20px;
+#gmail {
+    float: left;
+    
 }
 
-.jumbotron p {
-font-size: 20px;
-font-family: 'Times New Roman", Times, serif';
-font-weight: bold;
-} 
-
-.learn-more {
-border-style: solid;
-border-width: 4px;
-padding: 25px;
-margin: 40px;
+#etext {
+    float: right;
+    font-size: 90%;
 }
 
-.education p {
-font-size: 18px;
-font-weight: bold;
+#house {
+    float:left;
 }
 
-.statement3 {
-background-color: #A9F5F2;
-border-style: solid;
-border-width: 4px;
-padding: 25px;
+#telephone {
+    float:left;
+    clear: left;
 }
+
+#phonenumber {
+    float: right;
+    clear: right;
+}
+
+hr {
+   display: block;
+   position: relative;
+   padding: 0;
+   margin: 8px auto;
+   height: 0;
+   width: 100%;
+   max-height: 0;
+   font-size: 1px;
+   line-height: 0;
+   clear: both;
+   border: none;
+   border-top: 1px solid black;
+   border-bottom: 1px solid black;
+}
+    
+
+#first {
+    float: right;
+    font-size: 90%;
+    margin: 0px;
+}
+
+#second {
+    float: right;
+    clear: right;
+    font-size: 90%;
+    margin: 0px;
+}
+
+#third {
+    float: right;
+    clear: right;
+    font-size: 85%;
+    margin: 0px;
+}
+
+#myself {
+    float: left;
+    margin-left: 65px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px #888888;
+    position: fixed;
+    z-index: 1;
+}
+
+#media {
+    text-align: center;
+}
+
+
+#objective {
+    height: 170px;
+    width: 950px;
+    border: 2px solid black;
+    border-radius: 20px;
+    float: right;
+    background-color: snow;
+}
+
+p {
+    font-family: sans-serif, "Veranda";
+}
+
+ul {
+  font-family: sans-serif, "Veranda";
+}  
+
+#title {
+    text-align: center;
+    vertical-align: middle;
+    font-family: sans-serif, "Times New Roman";
+}
+
+h3 {
+    font-family: sans-serif, "Times New Roman";
+}
+
+#experience {
+    height: 880px;
+    width: 950px;
+    border: 2px solid black;
+    border-radius: 20px;
+    float: right;
+    background-color: snow;
+}
+
+#experience h3 {
+    display: inline-block;
+}
+
+#jobtitle {
+    position: relative;
+    right: 20px;
+}
+
+#dates {
+    position: relative;
+    left: 28px;
+    float: right;
+    margin-right: 55px;
+    clear: right;
+}
+
+#moredates {
+    clear: right; 
+    display: inline-block; 
+    margin: 0px -120px 0px -43px;
+}
+
+#firstlocation {
+    position: relative;
+    left: 210px;
+}
+
+#location {
+    position: relative;
+    left: 160px;
+}
+
+#anotherlocation {
+    position: relative;
+    left: -35px;
+    margin-right: 0px;
+}
+
+#education {
+    height: 180px;
+    width: 950px;
+    border: 2px solid black;
+    border-radius: 20px;
+    float: right;
+    background-color: snow;
+}
+
+#education h3 {
+    display: inline-block;
+}
+
+#school {
+    position: relative;
+    right: 0px;
+    margin-top: 30px;
+    margin-left: -5px;
+}
+
+#town {
+    position: relative;
+    margin-left: 95px;
+}
+
+#duration {
+    clear: right; 
+    display: inline-block; 
+    margin-left:15px;
+}
+
+#references {
+    height: 120px;
+    width: 950px;
+    border: 2px solid black;
+    border-radius: 20px;
+    float: right;
+    background-color: snow;
+}
+
+
+    
