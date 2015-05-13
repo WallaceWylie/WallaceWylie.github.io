@@ -41,6 +41,7 @@ body {
 #etext {
     float: right;
     font-size: 90%;
+    margin-top: -0px;
 }
 
 #house {
@@ -55,6 +56,8 @@ body {
 #phonenumber {
     float: right;
     clear: right;
+    font-size: 85%;
+    margin-top: 20px;
 }
 
 hr {
@@ -76,22 +79,17 @@ hr {
 
 #first {
     float: right;
-    font-size: 90%;
+    font-size: 80%;
     margin: 0px;
+    margin-top: 10px;
 }
 
 #second {
     float: right;
     clear: right;
-    font-size: 90%;
+    font-size: 80%;
     margin: 0px;
-}
-
-#third {
-    float: right;
-    clear: right;
-    font-size: 85%;
-    margin: 0px;
+    margin-bottom: -10px;
 }
 
 #myself {
