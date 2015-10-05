@@ -19,6 +19,25 @@ body {
     position: fixed;
     z-index: -1;
     background-color: snow;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);  
+}
+
+.header:hover {
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.3) translate(40px, 40px);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.3) translate(40px, 40px); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.3) translate(40px, 40px);
+    transition: all 200ms ease-in;
+    transform: scale(1.3) translate(40px, 40px);
 }
 
 .header dd {
@@ -117,6 +136,25 @@ hr {
     border-radius: 20px;
     float: right;
     background-color: snow;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);  
+}
+
+#objective:hover {
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.2) translate(-43px, 12px);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.2) translate(-43px, 12px); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.2) translate(-43px, 12px);
+    transition: all 200ms ease-in;
+    transform: scale(1.2) translate(-43px, 12px);
 }
 
 p {
@@ -135,19 +173,6 @@ ul {
 
 h3 {
     font-family: sans-serif, "Times New Roman";
-}
-
-#experience {
-    height: 880px;
-    width: 950px;
-    border: 2px solid black;
-    border-radius: 20px;
-    float: right;
-    background-color: snow;
-}
-
-#experience h3 {
-    display: inline-block;
 }
 
 #jobtitle {
@@ -192,9 +217,65 @@ h3 {
     border-radius: 20px;
     float: right;
     background-color: snow;
+    z-index: -1;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);  
+}
+
+#education:hover {
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.2) translate(-43px, 10px);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.2) translate(-43px, 10px); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.2) translate(-43px, 10px);
+    transition: all 200ms ease-in;
+    transform: scale(1.2) translate(-43px, 10px);
+    z-index: -1;
 }
 
 #education h3 {
+    display: inline-block;
+}
+
+
+#experience {
+    height: 880px;
+    width: 950px;
+    border: 2px solid black;
+    border-radius: 20px;
+    float: right;
+    background-color: snow;
+    z-index: 1;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);  
+}
+
+#experience:hover {
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.2) translate(-43px, -47px);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.2) translate(-43px, -47px); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.2) translate(-43px, -47px);
+    transition: all 200ms ease-in;
+    transform: scale(1.2) translate(-43px, -47px);
+    z-index: 1;
+}
+
+#experience h3 {
     display: inline-block;
 }
 
@@ -223,6 +304,25 @@ h3 {
     border-radius: 20px;
     float: right;
     background-color: snow;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);  
+}
+
+#references:hover {
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.2) translate(-43px, -15px);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.2) translate(-43px, -15px); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.2) translate(-43px, -15px);
+    transition: all 200ms ease-in;
+    transform: scale(1.2) translate(-43px, -15px);
 }
 
 
