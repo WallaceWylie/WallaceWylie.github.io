@@ -17,7 +17,6 @@ body {
     margin-bottom: 20px;
     display: inline;
     position: fixed;
-    z-index: -1;
     background-color: snow;
     -webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(1); 
@@ -217,7 +216,6 @@ h3 {
     border-radius: 20px;
     float: right;
     background-color: snow;
-    z-index: -1;
     -webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(1); 
     -ms-transition: all 200ms ease-in;
@@ -237,7 +235,6 @@ h3 {
     -moz-transform: scale(1.2) translate(-43px, 10px);
     transition: all 200ms ease-in;
     transform: scale(1.2) translate(-43px, 10px);
-    z-index: -1;
 }
 
 #education h3 {
@@ -252,7 +249,6 @@ h3 {
     border-radius: 20px;
     float: right;
     background-color: snow;
-    z-index: 1;
     -webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(1); 
     -ms-transition: all 200ms ease-in;
@@ -272,7 +268,6 @@ h3 {
     -moz-transform: scale(1.2) translate(-43px, -47px);
     transition: all 200ms ease-in;
     transform: scale(1.2) translate(-43px, -47px);
-    z-index: 1;
 }
 
 #experience h3 {
