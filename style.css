@@ -9,7 +9,15 @@
     height: 600px;
 }
 
+.construction:hover {
+    color: magenta;
+}
+
 .footline {
     text-align: center;
     color: green;
+}
+
+.footline:hover {
+    color: darkblue;
 }
