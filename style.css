@@ -1,6 +1,13 @@
+.top {
+    height: 200px;
+    margin: -32px -10px 0 -10px;
+    background-color: darkolivegreen;
+}
+
 .headline {
+    padding-top: 50px;
     text-align: center;
-    color: darkblue;
+    color: aliceblue;
 }
 
 .construction {
