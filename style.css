@@ -11,17 +11,24 @@
 }
 
 .centre {
+    margin: -32px -10px 0 -10px;
     background-color: firebrick;
+    height: 500px;
 }
 
 .construction {
     text-align: center;
     color: red;
-    height: 600px;
 }
 
 .construction:hover {
     color: magenta;
+}
+
+.bottom {
+    background-color: orange;
+    margin: -32px -10px 0 -10px;
+    height:200px;
 }
 
 .footline {
