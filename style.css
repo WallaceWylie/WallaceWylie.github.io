@@ -12,7 +12,7 @@
 
 .centre {
     margin: -32px -10px 0 -10px;
-    background-color: firebrick;
+    background-color: tomato;
     height: 500px;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .bottom {
-    background-color: orange;
+    background-color: sandybrown;
     margin: -32px -10px 0 -10px;
     height:200px;
 }
