@@ -1,4 +1,5 @@
 function myFunction() {
-    document.getElementById("demo").innerHTML = "Hello World";
+    var x = document.getElementById("myText").value;
+    document.getElementById("demo").innerHTML = "Hello " + x;
 }
 
