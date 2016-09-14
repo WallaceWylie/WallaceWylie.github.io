@@ -44,8 +44,16 @@
     color: darkblue;
 }
 
+.second {
+    background-color: dodgerblue;
+}
+
 .secondpage {
     background-color: sandybrown;
+}
+
+.third {
+    background-color: slateblue;
 }
 
 .thirdpage {
