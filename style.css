@@ -14,6 +14,10 @@
     color: aliceblue;
 }
 
+.secondpagediv {
+    text-align: center;
+}
+
 .centre {
     margin: -32px -10px 0 -10px;
     background-color: tomato;
